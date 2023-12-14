@@ -8,7 +8,10 @@ const Navbar = () => {
     <nav className='navbar'>
         <img src={logo}  alt='Logo' className='logo'/>
         <div className='desktopMenu'>
-          <link></link>
+          <Link className='desktopMenuListItem'>Home</Link>
+          <Link className='desktopMenuListItem'>About</Link>
+          <Link className='desktopMenuListItem'>Portfolio</Link>
+          <Link className='desktopMenuListItem'>Projects</Link>
         </div>
         <button className='desktopMenu'>
             <img src="" alt='logo' className='logo' />
