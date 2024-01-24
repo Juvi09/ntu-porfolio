@@ -25,4 +25,19 @@
     font-weight: 700;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: blue;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 100;
 }
