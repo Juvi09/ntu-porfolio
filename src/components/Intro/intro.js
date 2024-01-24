@@ -1,6 +1,7 @@
 import React from 'react'
 import './intro.css'
 import bg from '../../assets/Ntuthuko.jpg';
+import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (
@@ -9,6 +10,7 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Ntu Ndlovu</span>Front-End Developer</span>
             <p className='introPara'>I am a skilled front-end developer with experience in creating visually appealing and user friendly websites.</p>
+            <Link><button className='btn'><img src='' alt='' /></button></Link>
         </div>
         <img src={bg} alt='Profile' className='bg' />
     </section>
